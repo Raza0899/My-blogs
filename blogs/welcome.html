@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Welcome - My Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <h1>Welcome to my blog</h1>
+  <p>This is the very first post. Write anything you like here.</p>
+  <p>Duplicate this file, rename it, and write a new article—no other changes needed.</p>
+  <a class="back" href="../index.html">← back to home</a>
+
+  <script>
+    // same theme toggle for post pages
+    const s = localStorage.getItem('theme');
+    if(s) document.documentElement.setAttribute('data-theme', s);
+  </script>
+</body>
+</html>
